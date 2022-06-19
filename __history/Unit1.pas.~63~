@@ -126,8 +126,6 @@ var
   result: Real;
 begin
   input := StrToFloat(Edit1.Text);
-  result := Tangent(input);
-  Edit8.Text := FloatToStr(result);
 end;
 
 end.

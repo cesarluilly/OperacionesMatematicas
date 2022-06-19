@@ -186,7 +186,7 @@ object Form1: TForm1
     Top = 485
     Width = 138
     Height = 30
-    Caption = 'Seno en Radianes'
+    Caption = 'Seno'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -198,10 +198,10 @@ object Form1: TForm1
   end
   object Button6: TButton
     Left = 136
-    Top = 533
+    Top = 536
     Width = 138
     Height = 30
-    Caption = 'Coseno en Radianes'
+    Caption = 'Coseno'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -209,14 +209,13 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 6
-    OnClick = Button6Click
   end
   object Button7: TButton
     Left = 136
-    Top = 583
+    Top = 584
     Width = 138
     Height = 30
-    Caption = 'Tangente en Radianes'
+    Caption = 'Tangente'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -224,7 +223,6 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 7
-    OnClick = Button7Click
   end
   object Edit2: TEdit
     Left = 280

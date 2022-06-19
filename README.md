@@ -2,6 +2,8 @@
 
 # Lenguaje Delphi
 
+![sensibilidad](./imgReadme/sensibilidad.jpg)
+
 ## Programa de Hola Mundo
 ```delphi
  procedure TForm1.Button1Click(Sender: TObject);
@@ -341,3 +343,10 @@ END;Fin del Try
 * EZeroDivide: Controla los errores de división para valores reales.
 
 [Referencia. Lenguaje Delphi](https://es.wikibooks.org/wiki/Lenguaje_Delphi)
+
+# Corridas de aplicacion
+
+![corrida19Junio2022](./imgReadme/corrida19Junio2022.jpg)
+
+> Ejemplo de Boton Tangente
+>> ![botonTangente](./imgReadme/botonTangente.jpg)

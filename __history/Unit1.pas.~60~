@@ -40,7 +40,6 @@ type
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
     procedure Button6Click(Sender: TObject);
-    procedure Button7Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -117,17 +116,6 @@ var
 begin
   input := StrToFloat(Edit1.Text);
   result := Cos(input);
-  Edit7.Text := FloatToStr(result);
-end;
-
-procedure TForm1.Button7Click(Sender: TObject);
-var
-  input: Real;
-  result: Real;
-begin
-  input := StrToFloat(Edit1.Text);
-  result := Tangent(input);
-  Edit8.Text := FloatToStr(result);
 end;
 
 end.

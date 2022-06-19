@@ -134,7 +134,7 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 1
-    Text = '4'
+    Text = 'Edit1'
   end
   object Button2: TButton
     Left = 136
@@ -149,11 +149,10 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 2
-    OnClick = Button2Click
   end
   object Button3: TButton
     Left = 136
-    Top = 389
+    Top = 392
     Width = 138
     Height = 30
     Caption = 'Potencia a la 3'
@@ -164,11 +163,10 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 3
-    OnClick = Button3Click
   end
   object Button4: TButton
     Left = 136
-    Top = 437
+    Top = 440
     Width = 138
     Height = 30
     Caption = 'Logaritmo'
@@ -179,14 +177,13 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 4
-    OnClick = Button4Click
   end
   object Button5: TButton
     Left = 136
-    Top = 485
+    Top = 488
     Width = 138
     Height = 30
-    Caption = 'Seno en Radianes'
+    Caption = 'Seno'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -194,14 +191,13 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 5
-    OnClick = Button5Click
   end
   object Button6: TButton
     Left = 136
-    Top = 533
+    Top = 536
     Width = 138
     Height = 30
-    Caption = 'Coseno en Radianes'
+    Caption = 'Coseno'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -209,14 +205,13 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 6
-    OnClick = Button6Click
   end
   object Button7: TButton
     Left = 136
-    Top = 583
+    Top = 584
     Width = 138
     Height = 30
-    Caption = 'Tangente en Radianes'
+    Caption = 'Tangente'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -224,7 +219,6 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 7
-    OnClick = Button7Click
   end
   object Edit2: TEdit
     Left = 280
