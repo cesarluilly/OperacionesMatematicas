@@ -28,8 +28,13 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Edit9: TEdit;
-    Label5: TLabel;
     Label6: TLabel;
+    Edit10: TEdit;
+    Edit11: TEdit;
+    Label5: TLabel;
+    Label7: TLabel;
+    Edit12: TEdit;
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -42,5 +47,12 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+        var1:real;
+begin
+
+end;
 
 end.

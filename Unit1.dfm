@@ -1,8 +1,9 @@
 object Form1: TForm1
-  Left = 219
-  Top = 79
-  Width = 1137
-  Height = 769
+  Left = 107
+  Top = 102
+  Width = 1383
+  Height = 704
+  HorzScrollBar.Tracking = True
   Caption = 'Form1'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -11,11 +12,13 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDefault
+  Visible = True
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 312
-    Top = 24
+    Left = 408
+    Top = 0
     Width = 413
     Height = 45
     Caption = 'Operaciones Matematicas'
@@ -27,8 +30,8 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 112
-    Top = 96
+    Left = 72
+    Top = 240
     Width = 161
     Height = 25
     Caption = 'Datos de entrada'
@@ -40,11 +43,11 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 544
-    Top = 144
-    Width = 72
+    Left = 72
+    Top = 72
+    Width = 144
     Height = 16
-    Caption = 'Dimensiones'
+    Caption = 'Estandar de Dimensiones'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -53,24 +56,11 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 672
+    Left = 136
     Top = 96
-    Width = 41
+    Width = 87
     Height = 16
-    Caption = 'Normal'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
-  end
-  object Label5: TLabel
-    Left = 544
-    Top = 192
-    Width = 57
-    Height = 16
-    Caption = 'Size Letra'
+    Caption = 'Normal Size 10'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -79,21 +69,47 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label6: TLabel
-    Left = 800
+    Left = 320
     Top = 88
-    Width = 37
-    Height = 16
-    Caption = 'Label6'
+    Width = 132
+    Height = 23
+    Caption = 'Medium Size 14'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 528
+    Top = 80
+    Width = 144
+    Height = 29
+    Caption = 'Large Size 16'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 824
+    Top = 72
+    Width = 221
+    Height = 39
+    Caption = 'XLarger Size 24'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
   end
   object Button1: TButton
-    Left = 104
-    Top = 152
+    Left = 136
+    Top = 296
     Width = 138
     Height = 30
     Caption = 'RaizCuadrada'
@@ -104,18 +120,25 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 0
+    OnClick = Button1Click
   end
   object Edit1: TEdit
-    Left = 312
-    Top = 104
-    Width = 121
-    Height = 21
+    Left = 280
+    Top = 248
+    Width = 138
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 1
     Text = 'Edit1'
   end
   object Button2: TButton
-    Left = 104
-    Top = 200
+    Left = 136
+    Top = 344
     Width = 138
     Height = 30
     Caption = 'Potencia a la 2'
@@ -128,8 +151,8 @@ object Form1: TForm1
     TabOrder = 2
   end
   object Button3: TButton
-    Left = 104
-    Top = 248
+    Left = 136
+    Top = 392
     Width = 138
     Height = 30
     Caption = 'Potencia a la 3'
@@ -142,8 +165,8 @@ object Form1: TForm1
     TabOrder = 3
   end
   object Button4: TButton
-    Left = 104
-    Top = 296
+    Left = 136
+    Top = 440
     Width = 138
     Height = 30
     Caption = 'Logaritmo'
@@ -156,8 +179,8 @@ object Form1: TForm1
     TabOrder = 4
   end
   object Button5: TButton
-    Left = 104
-    Top = 344
+    Left = 136
+    Top = 488
     Width = 138
     Height = 30
     Caption = 'Seno'
@@ -170,8 +193,8 @@ object Form1: TForm1
     TabOrder = 5
   end
   object Button6: TButton
-    Left = 104
-    Top = 392
+    Left = 136
+    Top = 536
     Width = 138
     Height = 30
     Caption = 'Coseno'
@@ -184,8 +207,8 @@ object Form1: TForm1
     TabOrder = 6
   end
   object Button7: TButton
-    Left = 104
-    Top = 440
+    Left = 136
+    Top = 584
     Width = 138
     Height = 30
     Caption = 'Tangente'
@@ -198,8 +221,8 @@ object Form1: TForm1
     TabOrder = 7
   end
   object Edit2: TEdit
-    Left = 248
-    Top = 152
+    Left = 280
+    Top = 296
     Width = 138
     Height = 24
     Font.Charset = DEFAULT_CHARSET
@@ -212,8 +235,8 @@ object Form1: TForm1
     Text = 'Edit2'
   end
   object Edit3: TEdit
-    Left = 248
-    Top = 200
+    Left = 280
+    Top = 344
     Width = 138
     Height = 24
     Font.Charset = DEFAULT_CHARSET
@@ -226,8 +249,8 @@ object Form1: TForm1
     Text = 'Edit3'
   end
   object Edit4: TEdit
-    Left = 248
-    Top = 248
+    Left = 280
+    Top = 392
     Width = 138
     Height = 24
     Font.Charset = DEFAULT_CHARSET
@@ -240,8 +263,8 @@ object Form1: TForm1
     Text = 'Edit4'
   end
   object Edit5: TEdit
-    Left = 248
-    Top = 296
+    Left = 280
+    Top = 440
     Width = 138
     Height = 24
     Font.Charset = DEFAULT_CHARSET
@@ -254,8 +277,8 @@ object Form1: TForm1
     Text = 'Edit5'
   end
   object Edit6: TEdit
-    Left = 248
-    Top = 344
+    Left = 280
+    Top = 488
     Width = 138
     Height = 24
     Font.Charset = DEFAULT_CHARSET
@@ -268,8 +291,8 @@ object Form1: TForm1
     Text = 'Edit6'
   end
   object Edit7: TEdit
-    Left = 248
-    Top = 392
+    Left = 280
+    Top = 536
     Width = 138
     Height = 24
     Font.Charset = DEFAULT_CHARSET
@@ -282,8 +305,8 @@ object Form1: TForm1
     Text = 'Edit7'
   end
   object Edit8: TEdit
-    Left = 248
-    Top = 440
+    Left = 280
+    Top = 584
     Width = 138
     Height = 24
     Font.Charset = DEFAULT_CHARSET
@@ -296,11 +319,59 @@ object Form1: TForm1
     Text = 'Edit8'
   end
   object Edit9: TEdit
-    Left = 640
-    Top = 136
-    Width = 121
-    Height = 21
+    Left = 136
+    Top = 152
+    Width = 138
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 15
-    Text = '138x30'
+    Text = '138x24'
+  end
+  object Edit10: TEdit
+    Left = 312
+    Top = 144
+    Width = 194
+    Height = 31
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 16
+    Text = '194x31'
+  end
+  object Edit11: TEdit
+    Left = 528
+    Top = 144
+    Width = 225
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 17
+    Text = '225x33'
+  end
+  object Edit12: TEdit
+    Left = 824
+    Top = 136
+    Width = 322
+    Height = 47
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 18
+    Text = '322x47'
   end
 end
