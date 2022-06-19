@@ -11,6 +11,61 @@
  end.
 ```
 
+## Entradas y salidas
+
+
+|Método	| Convierte de |	Convierte a |
+|---|---|---|
+|**IntToStr**(variable:Integer)	| Integer	| String|
+|**StrToInt**(variable:String)	| String	| Integer|
+|**FloatToStr**(variable:Float)	| Real	| String|
+|**StrToFloat**(Variable:String)	| String	| Real|
+
+## Funciones matematicas
+|Funcion|Descripcion|
+|---|---|
+| ABS(X) | Valor Absoluto |
+| Sqr(X) | Cuadrado de X |
+| Sqrt(X) | Raiz Cuadrada de X |
+| Ln(X) | Logaritmo Natural |
+| Exp(X) | Exponencial de X |
+| Pi(X) | Numero PI |
+| Round(X) | Redondeo de X |
+| Int(X) | Parte Entera de X |
+
+## Conversion
+* Convierte de cadena a numero real
+```delphi
+VAL(nombre del edit, nombre de variable real, variable de error);
+```
+* Convierte de numero real a cadena
+```delphi
+STR(nombre de variable numerica:Enteros:Decimales, Nombre de la cadena);
+```
+
+## Declaración, definición y uso de métodos y funciones
+
+* Declaracion y definicion de los procedimientos
+```delphi
+Procedure <Nombre del Procedimiento>
+Var
+	{Lista de variables locales}
+Begin
+	{Bloque de instrucciones }
+End;
+```
+
+* Declaración y Definición de las Funciones.
+```delphi
+Function<Nombre de la Función> (Parámetros): <Tipo de Dato a retornar>;
+Var
+	{Lista de variables locales}
+Begin
+	{Bloque de instrucciones }
+	<Nombre de la Función>  :=  Instrucción; Aquí ocurre el famoso ‘return’ de las funciones
+End;
+```
+
 ## Diccionario de palabras reservadas, operadores y simbolos
 
 | | | | | | |
@@ -75,16 +130,6 @@
 
 * **Boolean**
     * Tipo de Datos Booleano, cuyas variables pueden tomar los valores True (verdadero) o False (falso)
-
-## Entradas y salidas
-
-
-|Método	| Convierte de |	Convierte a |
-|---|---|---|
-|**IntToStr**(variable:Integer)	| Integer	| String|
-|**StrToInt**(variable:String)	| String	| Integer|
-|**FloatToStr**(variable:Float)	| Real	| String|
-|**StrToFloat**(Variable:String)	| String	| Real|
 
 ## Tabla de operadores
 
@@ -166,29 +211,6 @@ Repeat
 Instrucciones;
 *Instrucción de salida del Ciclo;
 Until (Condición);
-```
-
-### Declaración, definición y uso de métodos y funciones
-
-* Declaracion y definicion de los procedimientos
-```delphi
-Procedure <Nombre del Procedimiento>
-Var
-	{Lista de variables locales}
-Begin
-	{Bloque de instrucciones }
-End;
-```
-
-* Declaración y Definición de las Funciones.
-```delphi
-Function<Nombre de la Función> (Parámetros): <Tipo de Dato a retornar>;
-Var
-	{Lista de variables locales}
-Begin
-	{Bloque de instrucciones }
-	<Nombre de la Función>  :=  Instrucción; Aquí ocurre el famoso ‘return’ de las funciones
-End;
 ```
 
 ## Implementación y uso de la Programación Orientada a Objetos

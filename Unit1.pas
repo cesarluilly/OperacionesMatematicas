@@ -51,7 +51,11 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 var
         var1:real;
+        var2:Integer;
+        var3:string;
 begin
+        var2:= 16;
+        STR(var2,Edit4.Text);
 
 end;
 
